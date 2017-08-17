@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+        TODO wrap EditText with FrameLayout to give it background
+        Add FrameLayout to wrap the below EditText
+        set its (FrameLayout's) background to "#ff0000"
+        set its top and bottom padding to 18dp
+        set its left and right padding to 24dp
+    -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:paddingTop="18dp"
+        android:paddingBottom="24dp"
+        >
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:hint="Your name"/>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YO"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:padding="24dp"
+        android:background="#1ABC9C"/>
+
+    <!--
+        TODO add Button
+        add a button here
+        set its id to "btn_2"
+        set its text to "MO"
+        set its background to "#3498DB"
+    -->
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mo"
+        android:textSize="32sp"
+        android:padding="24dp"
+        android:textColor="@android:color/white"
+        android:background="#3498DB"
+        />
+
+    <!--
+        TODO add Button
+        add a button here
+        set its id to "btn_3"
+        set its text to "YO YO"
+        set its background to "#34495E"
+    -->
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yo Yo"
+        android:textSize="32sp"
+        android:padding="24dp"
+        android:textColor="@android:color/white"
+        android:background="#34495E"
+         />
+    <!--
+        TODO add Button
+        add a button here
+        set its id to "btn_4"
+        set its text to "OR"
+        set its background to "#16A085"
+    -->
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textSize="32sp"
+        android:padding="24dp"
+        android:background="#16A085"/>
+
+</LinearLayout>
